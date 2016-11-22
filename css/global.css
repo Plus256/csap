@@ -69,12 +69,34 @@ main{
 #homepage{
 	padding-top:5em;
 	text-align:center;
+	position:relative;
+	overflow:hidden;
+	max-height:35em;
+}
+
+#homepage_hero{
+	/**/
+}
+
+#homepage_hero img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+
+#homepage_action{
+	height:100%;
+	position:absolute;
+	width:100%;
+	top:5em;
+	left:0;
 }
 
 #homepage_intro{
 	font-size:120%;
 	margin:0;
-	padding-top:10em;
+	color:#FFF;
+	padding-top:15em;
 }
 
 #homepage_signin_button{
@@ -88,8 +110,8 @@ main{
 }
 
 #homepage_signin_button:hover{
-	color:#FFF;
 	background:#ED1C24;
+	color:#FFF;
 }
 
 footer{
