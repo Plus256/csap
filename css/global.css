@@ -1,0 +1,19 @@
+body{
+	font-family:"proxima-nova", Helvetica Neue, Verdana, Geneva, sans-serif;
+	margin:0;
+	color:#000;
+	overflow-x:hidden;
+}
+
+.wrapper{
+	margin:auto;
+}
+
+a{
+	text-decoration:none;
+	color:#ED1C24;
+}
+
+a:hover{
+	text-decoration:underline;
+}
