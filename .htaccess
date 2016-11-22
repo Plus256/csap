@@ -1,0 +1,7 @@
+Options -Indexes
+
+RewriteEngine On
+
+#RewriteRule ^pagenotfound$ 404.php [NC,L]
+
+ErrorDocument 404 http://plus256.com/pagenotfound
