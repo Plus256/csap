@@ -1,6 +1,3 @@
-<?php
-//main
-?>
 <main>
     
 </main>
