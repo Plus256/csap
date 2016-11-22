@@ -30,6 +30,7 @@ header{
 	position:fixed;
 	z-index:2;
 	width:100%;
+	overflow:hidden;
 }
 
 #logo_container{
@@ -63,6 +64,32 @@ header{
 
 main{
 	
+}
+
+#homepage{
+	padding-top:5em;
+	text-align:center;
+}
+
+#homepage_intro{
+	font-size:120%;
+	margin:0;
+	padding-top:10em;
+}
+
+#homepage_signin_button{
+	display:inline-block;
+	text-decoration:none;
+	padding:1em;
+	color:#ED1C24;
+	text-transform:uppercase;
+	margin:5em 0 10em 0;
+	border:1px solid #ED1C24;
+}
+
+#homepage_signin_button:hover{
+	color:#FFF;
+	background:#ED1C24;
 }
 
 footer{
