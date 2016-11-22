@@ -9,6 +9,10 @@ body{
 	margin:auto;
 }
 
+.spacer{
+	clear:both;
+}
+
 a{
 	text-decoration:none;
 	color:#ED1C24;
@@ -30,6 +34,10 @@ header{
 
 #logo_container{
 	float:left;
+}
+
+#logo_container a{
+	display:inline-block;
 }
 
 #logo{

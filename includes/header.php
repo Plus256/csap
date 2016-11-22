@@ -16,5 +16,6 @@ require_once('includes/db.php');
             <?php
         }
         ?>
+        <div class="spacer"></div>
     </div>
 </header>
