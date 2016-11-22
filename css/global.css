@@ -19,7 +19,8 @@ a:hover{
 }
 
 header{
-	background:#FFF;
+	background:#ED1C24;
+	color:#FFF;
 	opacity:0.98;
 	height:5em;
 	position:fixed;
