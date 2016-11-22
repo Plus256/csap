@@ -1,5 +1,5 @@
 <?php
-//configuration
+//basic configuration file
 
 /**
   *CsChat
@@ -11,25 +11,8 @@
   *@version 1.0
 */
 
-//Sessions and Output Buffering
-ob_start();
-session_start();
-
-//Database Connection
-$host="127.0.0.1";
-$db_name="cschat";
-$db_user="";
-$db_user_pwd="";
-$charset="utf8";
-$port=3306;
-$dsn="mysql:host=$host;dbname=$db_name;charset=$charset;port=$port";
-try{
-    $conn=new PDO($dsn, $db_user, $db_user_pwd);
-    $conn->setAttribute(PDO::ATTR_ERRMODE,  PDO::ERRMODE_EXCEPTION);
-}
-catch(PDOException $e){
-    echo "Database Connection Failed: ".$e->getMessage();
-}
+ob_start();//Output Buffering
+session_start();//Start session
 
 //Global Variables
 $app_name="CsChat";
