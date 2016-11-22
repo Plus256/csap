@@ -12,7 +12,6 @@
 */
 
 ob_start();//Output Buffering
-session_start();//Start session
 
 //Global Variables
 $app_name="CsChat";
