@@ -4,7 +4,10 @@ require_once("includes/db.php");
 $stmt=$conn->prepare("SELECT * FROM user WHERE id=?");
 $stmt->execute([$user_id]);//$user_id is taken from wrapper that extracts ID from session
 $user=$stmt->fetch();//default fetch is an associative array - was set at connection time
-$user_name=$user["name"];
-$user_screen_name=$user["screenname"];
-$user_profile_image_url=$user["profileimageurl"];
+$selected=$stmt->rowCount();
+if($selected>0){//checking query success
+    $user_name=$user["name"];
+    $user_screen_name=$user["screenname"];
+    $user_profile_image_url=$user["profileimageurl"];
+}
 ?>
