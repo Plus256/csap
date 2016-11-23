@@ -62,13 +62,13 @@ header{
 	font-weight:600;
 }
 
-/*#user_name{
+#user_name{
 	
 }
 
-#signout_button{
-	
-}*/
+a#signout_button{
+	color:#FFF;
+}
 
 main{
 	
