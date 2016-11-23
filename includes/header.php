@@ -4,6 +4,7 @@
         <?php
         //track session
         if(isset($_SESSION["logged"])){//user logged in. display username and logout button
+            $user_id=$_SESSION["logged"];//extract user ID from session variable
             require_once('includes/user.php');
             ?>
             <a id="signout_button" href="includes/logout.php">Logout</a>
