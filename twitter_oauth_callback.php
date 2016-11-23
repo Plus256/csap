@@ -21,7 +21,7 @@ else{
     $twitter_access_token_secret=$access_token['oauth_token_secret'];
     
     //then grant user access with a session carrying the user ID
-    $_SESSION["logged"];
-    header('Location: index.php');
+    $_SESSION["logged"]=$access_token;
+    header('Location: ./');
 }
 ?>
