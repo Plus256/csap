@@ -4,7 +4,7 @@
         <?php
         //track session
         if(isset($_SESSION["logged"])){//user logged in. display username and logout button
-            $user_id=$_SESSION['logged'];
+            print_r($_SESSION["logged"]);
         }
         else{//user not logged in. display app name
             ?>
