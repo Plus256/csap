@@ -8,7 +8,7 @@
             require_once('includes/user.php');
             ?>
             <a id="signout_button" href="includes/logout.php">Logout</a>
-            <span id="user_name"><?php echo $user->name; ?></span>
+            <span id="user_name"><?php echo $user_name; ?></span>
             <?php
         }
         else{//user not logged in. display app name
