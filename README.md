@@ -8,7 +8,7 @@ Guys! Please don't run pentests on my website (<a href="http://plus256.com">plus
 
 <h1>Dev Stack</h1>
 
-<i>Client</i>
+<h4>Client</h4>
 <ul>
 <li>HTML</li>
 <li>CSS</li>
@@ -16,7 +16,7 @@ Guys! Please don't run pentests on my website (<a href="http://plus256.com">plus
 <li>AJAX</li>
 </ul>
 
-<i>Server</i>
+<h4>Server</h4>
 <ul>
 <li>PHP</li>
 <li>MySQL</li>
