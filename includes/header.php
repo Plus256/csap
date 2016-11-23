@@ -4,11 +4,15 @@
         <?php
         //track session
         if(isset($_SESSION["logged"])){//user logged in. display username and logout button
-            print_r($_SESSION["logged"]);
+            $user=$_SESSION["logged"];
+            ?>
+            <a id="signout_button" href="includes/logout.php">Logout</a>
+            <span id="user_name"><?php echo $user->name; ?></span>
+            <?php
         }
         else{//user not logged in. display app name
             ?>
-            <div id="app_name"><?php echo $app_name; ?></div>
+            <span id="app_name"><?php echo $app_name; ?></span>
             <?php
         }
         ?>

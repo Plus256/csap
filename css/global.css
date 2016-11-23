@@ -55,12 +55,20 @@ header{
 	fill:#FC0;
 }*/
 
-#app_name{
+#app_name, #user_name, #signout_button{
 	float:right;
 	line-height:5em;
 	padding:0 1em;
 	font-weight:600;
 }
+
+/*#user_name{
+	
+}
+
+#signout_button{
+	
+}*/
 
 main{
 	
