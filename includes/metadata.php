@@ -12,6 +12,7 @@ require_once("includes/config.php");
         <meta name="description" content="<?php echo $app_name." - ".$app_description; ?>">
         <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="css/global.css" />
+        <link rel="stylesheet" type="text/css" href="css/mobile.css" />
         <script type="text/javascript" src="js/init.js"></script>
         <script>
           (function(d) {
