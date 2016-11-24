@@ -20,11 +20,5 @@
 
 /*Small displays. For example phones*/
 @media only screen and (max-width:640px){
-    #homepage_intro{
-        padding-top:4em;
-    }
     
-    #homepage_signin_button{
-        margin:1em 0;
-    }
 }
