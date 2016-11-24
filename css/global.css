@@ -129,7 +129,74 @@ main{
 /*USER DASHBOARD STYLES*/
 
 #dashboard{
+	padding:6em 0 1em 0;
+	background:#EAEAEA;
+}
+
+#dashboard .wrapper{
+	width:80%;
+}
+
+#side_pane{
+	float:left;
+	width:35%;
+	border-right:1px solid #EAEAEA;
+}
+
+.pane_header{
+	padding:10px;
+	background:#F5F5F5;
+	border-bottom:1px solid #EAEAEA;
+}
+
+.avatar{
+	float:left;
+	width:3em;
+	height:3em;
+}
+
+.avatar img{
+	width:auto;
+	height:3em;
+	border-radius:100%;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	-o-border-radius:100%;
+}
+
+#user_handle{
+	float:right;
+	line-height:3em
+}
+
+#side_pane_main{
 	
+}
+
+#search_container{
+	padding:10px;
+	background:#F5F5F5;
+	border-bottom:1px solid #EAEAEA;
+}
+
+#chat_container{
+	padding:10px;/*remove property when dynamic processing begins*/
+	background:#FCFCFC;
+	height:23.21em;
+}
+
+#main_pane{
+	overflow:hidden;
+}
+
+#default_main_pane_data{
+	background:#F5F5F5;
+	height:30em;
+	padding:10px;
+}
+
+#main_pane_main{
+	padding:10px;
 }
 
 /*FOOTER STYLES*/
