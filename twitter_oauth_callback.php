@@ -6,6 +6,7 @@ require("twitteroauth/autoload.php");
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 $request_token=[];
+//the following two lines 10 & 11 throw exceptions in Chrome
 $request_token['oauth_token']=$_SESSION["oauth_token"];
 $request_token['oauth_token_secret']=$_SESSION["oauth_token_secret"];
 
