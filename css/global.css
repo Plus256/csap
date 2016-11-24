@@ -1,3 +1,5 @@
+/*COMMON ELEMENTS STYLES*/
+
 body{
 	font-family:"proxima-nova", Helvetica Neue, Verdana, Geneva, sans-serif;
 	margin:0;
@@ -21,6 +23,8 @@ a{
 a:hover{
 	text-decoration:underline;
 }
+
+/*HEADER STYLES*/
 
 header{
 	background:#ED1C24;
@@ -51,10 +55,6 @@ header{
 	fill:#FFF;
 }
 
-/*#logo:hover .logo_shape{
-	fill:#FC0;
-}*/
-
 #app_name, #user_name, #signout_button{
 	float:right;
 	line-height:5em;
@@ -70,9 +70,13 @@ a#signout_button{
 	color:#FFF;
 }
 
+/*MAIN SECTION STYLES*/
+
 main{
 	
 }
+
+/*HOMEPAGE STYLES*/
 
 #homepage{
 	padding-top:5em;
@@ -121,6 +125,14 @@ main{
 	background:#ED1C24;
 	color:#FFF;
 }
+
+/*USER DASHBOARD STYLES*/
+
+#dashboard{
+	
+}
+
+/*FOOTER STYLES*/
 
 footer{
 	background:#555;
