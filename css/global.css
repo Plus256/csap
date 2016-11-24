@@ -143,6 +143,13 @@ main{
 	border-right:1px solid #EAEAEA;
 }
 
+#side_pane_header{
+	-moz-border-radius:10px 0 0 0;
+	-webkit-border-radius:10px 0 0 0;
+	-o-border-radius:10px 0 0 0;
+	border-radius:10px 0 0 0;
+}
+
 .pane_header{
 	padding:10px;
 	background:#F5F5F5;
@@ -158,10 +165,10 @@ main{
 .avatar img{
 	width:auto;
 	height:3em;
-	border-radius:100%;
 	-moz-border-radius:100%;
 	-webkit-border-radius:100%;
 	-o-border-radius:100%;
+	border-radius:100%;
 }
 
 #user_handle{
@@ -183,6 +190,10 @@ main{
 	padding:10px;/*remove property when dynamic processing begins*/
 	background:#FCFCFC;
 	height:23.21em;
+	-moz-border-radius:0 0 0 10px;
+	-webkit-border-radius:0 0 0 10px;
+	-o-border-radius:0 0 0 10px;
+	border-radius:0 0 0 10px;
 }
 
 #main_pane{
@@ -193,6 +204,10 @@ main{
 	background:#F5F5F5;
 	height:30em;
 	padding:10px;
+	-moz-border-radius:0 10px 10px 0;
+	-webkit-border-radius:0 10px 10px 0;
+	-o-border-radius:0 10px 10px 0;
+	border-radius:0 10px 10px 0;
 }
 
 #main_pane_main{
