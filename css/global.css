@@ -100,12 +100,8 @@ main{
 
 #homepage_hero{
 	flex-grow:1;
-}
-
-#homepage_hero img{
-	width:100%;
-	height:auto;
-	display:block;
+	background:url("../resources/images/hero.jpg") no-repeat center center;
+	background-size:cover;
 }
 
 #homepage_action{

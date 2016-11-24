@@ -1,5 +1,5 @@
 <section id="homepage">
-    <div id="homepage_hero"><img src="resources/images/hero.jpg" /></div>
+    <div id="homepage_hero"><!--image called as bg. looking for flexbox overflow:hidden solution--></div>
     <div id="homepage_action">
         <div class="wrapper">
             <p id="homepage_intro">You'll need to sign in with your Twitter credentials to Enter the Chatroom.</p>
