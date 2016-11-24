@@ -1,0 +1,30 @@
+/*Very wide displays*/
+@media only screen and (min-width:1200px){
+    
+}
+
+/*Wide displays*/
+@media only screen and (min-width:981px){
+    
+}
+
+/*Medium-sized displays. For example tablets in Landscape Mode*/
+@media only screen and (min-width:641px) and (max-width:980px){
+    
+}
+
+/* Tablets in Portrait Mode*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+    
+}
+
+/*Small displays. For example phones*/
+@media only screen and (max-width:640px){
+    #homepage_intro{
+        padding-top:4em;
+    }
+    
+    #homepage_signin_button{
+        margin:1em 0;
+    }
+}
