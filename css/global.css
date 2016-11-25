@@ -2,6 +2,8 @@
 
 html{
 	height:100%;
+	display:-webkit-flex;/*adding vendor prefixes for browser compatibility*/
+	display:-moz-flex;
 	display:flex;
 }
 
@@ -10,8 +12,14 @@ body{
 	margin:0;
 	color:#000;
 	overflow-x:hidden;
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
 	display:flex;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
 	flex-direction:column;
 }
 
@@ -81,8 +89,14 @@ a#signout_button{
 /*MAIN SECTION STYLES*/
 
 main{
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
 	display:flex;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
 	flex-direction:column;
 }
 
@@ -93,12 +107,20 @@ main{
 	text-align:center;
 	position:relative;
 	overflow:hidden;
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
 	display:flex;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
 	flex-direction:column;
 }
 
 #homepage_hero{
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
 	background:url("../resources/images/hero.jpg") no-repeat center center;
 	background-size:cover;
@@ -143,16 +165,28 @@ main{
 #dashboard{
 	padding:6em 0 1em 0;
 	background:#EAEAEA;
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
 	display:flex;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
 	flex-direction:column;
 }
 
 #dashboard .wrapper{
 	width:80%;
 	margin:0 auto;
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
 	display:flex;
+	-webkit-flex-direction:row;
+	-moz-flex-direction:row;
 	flex-direction:row;
 }
 
@@ -160,8 +194,14 @@ main{
 	float:left;
 	width:35%;
 	border-right:1px solid #EAEAEA;
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
 	display:flex;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
 	flex-direction:column;
 }
 
@@ -199,8 +239,14 @@ main{
 }
 
 #side_pane_main{
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
 	display:flex;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
 	flex-direction:column;
 }
 
@@ -213,6 +259,8 @@ main{
 #chat_container{
 	padding:10px;/*remove property when dynamic processing begins*/
 	background:#FCFCFC;
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
 	-moz-border-radius:0 0 0 10px;
 	-webkit-border-radius:0 0 0 10px;
@@ -222,13 +270,21 @@ main{
 
 #main_pane{
 	overflow:hidden;
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
 	display:flex;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
 	flex-direction:column;
 }
 
 #default_main_pane_data{
 	background:#F5F5F5;
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
 	flex-grow:1;
 	padding:10px;
 	-moz-border-radius:0 10px 10px 0;
