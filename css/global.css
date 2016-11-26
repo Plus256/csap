@@ -191,8 +191,7 @@ main{
 }
 
 #side_pane{
-	float:left;
-	width:35%;
+	width:10%;
 	border-right:1px solid #EAEAEA;
 	-webkit-flex-grow:1;
 	-moz-flex-grow:1;
@@ -254,6 +253,7 @@ main{
 	padding:10px;
 	background:#F5F5F5;
 	border-bottom:1px solid #EAEAEA;
+	text-align:center;
 }
 
 #chat_container{
@@ -269,7 +269,6 @@ main{
 }
 
 #main_pane{
-	overflow:hidden;
 	-webkit-flex-grow:1;
 	-moz-flex-grow:1;
 	flex-grow:1;
@@ -286,6 +285,12 @@ main{
 	-webkit-flex-grow:1;
 	-moz-flex-grow:1;
 	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
+	flex-direction:column;
 	padding:10px;
 	-moz-border-radius:0 10px 10px 0;
 	-webkit-border-radius:0 10px 10px 0;
@@ -293,8 +298,10 @@ main{
 	border-radius:0 10px 10px 0;
 }
 
-#main_pane_main{
-	padding:10px;
+#default_main_pane_data p{
+	margin:auto;
+	width:80%;
+	text-align:center;
 }
 
 /*FOOTER STYLES*/

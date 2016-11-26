@@ -5,8 +5,13 @@
         <div class="spacer"></div>
     </div>
     <div id="side_pane_main">
-        <div id="search_container">Chat Search Element Here.</div>
-        <div id="chat_container">Default Data Here. Replaced by Chats or Info of People Online.</div>
+        <div id="search_container">--Chat Search Feature--</div>
+        <div id="chat_container">
+            <!--A script to fetch chats-->
+            <?php
+            
+            ?>
+        </div>
         <div class="spacer"></div>
     </div>
     <div class="spacer"></div>
