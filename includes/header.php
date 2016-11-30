@@ -7,8 +7,8 @@
             $user_id=$_SESSION["logged"];//extract user ID from session variable
             require_once('includes/user.php');
             ?>
-            <a id="signout_button" href="includes/logout.php">Logout</a>
             <span id="user_name"><?php echo $user_name; ?></span>
+            <a id="signout_button" href="includes/logout.php">Logout</a>
             <?php
         }
         else{//user not logged in. display app name
