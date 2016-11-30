@@ -23,4 +23,37 @@
     #user_name{
         text-align:center;
     }
+    
+    #dashboard .wrapper{
+    	width:none;
+    	-webkit-flex:1;
+    	-moz-flex:1;
+    	flex:1;
+    	padding:0 1em;
+    }
+    
+    #side_pane{
+    	width:none;
+    	-webkit-flex:1;
+    	-moz-flex:1;
+    	flex:1;
+    }
+    
+    #side_pane_header{
+    	-moz-border-radius:10px 10px 0 0;
+    	-webkit-border-radius:10px 10px 0 0;
+    	-o-border-radius:10px 10px 0 0;
+    	border-radius:10px 10px 0 0;
+    }
+    
+    #chat_container{
+    	-moz-border-radius:0 0 10px 10px;
+    	-webkit-border-radius:0 0 10px 10px;
+    	-o-border-radius:0 0 10px 10px;
+    	border-radius:0 0 10px 10px;
+    }
+    
+    #main_pane{
+    	display:none;
+    }
 }
