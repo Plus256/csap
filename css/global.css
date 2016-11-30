@@ -51,6 +51,18 @@ header{
 	z-index:2;
 	width:100%;
 	overflow:hidden;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+}
+
+header .wrapper{
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
+	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
 }
 
 #logo_container{
@@ -78,8 +90,18 @@ header{
 	font-weight:600;
 }
 
+#app_name{
+	-webkit-flex:1;/*shortcut for flex grow, shrink, basis. second and third parameters are optional. default is 0 1 auto*/
+	-moz-flex:1;
+	flex:1;
+	text-align:right;
+}
+
 #user_name{
-	
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
+	flex-grow:1;
+	text-align:right;
 }
 
 a#signout_button{
