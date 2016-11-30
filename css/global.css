@@ -185,7 +185,7 @@ main{
 /*USER DASHBOARD STYLES*/
 
 #dashboard{
-	padding:6em 0 1em 0;
+	padding:6em 1em 1em 1em;
 	background:#EAEAEA;
 	-webkit-flex-grow:1;
 	-moz-flex-grow:1;
