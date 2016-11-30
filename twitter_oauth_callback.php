@@ -36,18 +36,16 @@ else{
         //add data to DB
         $stmt=$conn->prepare("INSERT INTO user(token, tokensecret, name, screenname, profileimageurl) VALUES (:token, :token_secret, :name, :screen_name, :profile_image_url)");
         $stmt->execute(["token"=>$user_access_token, "token_secret"=>$user_access_token_secret, "name"=>$user_name, "screen_name"=>$user_screen_name, "profile_image_url"=>$user_profile_image_url]);
-        $inserted=$stmt->rowCount();
+        $inserted=$stmt->rowCount();//returns number of affected rows
         if($inserted>0){//record created
             //grant user access with a session based on last_insert_id
-            $user_id=$conn->lastInsertId();
-            $_SESSION["logged"]=$user_id;//our UNIQUE IDENTIFIER
-            header('Location: ./');
+            $user_id=$conn->lastInsertId();//user id
+            require("includes/login.php");
         }
     }
     else{//User Exists
        $user_id=$exists;//user id
-       $_SESSION["logged"]=$user_id;//our UNIQUE IDENTIFIER
-       header('Location: ./');
+       require("includes/login.php");
     }
 }
 ?>
