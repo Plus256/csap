@@ -1,5 +1,5 @@
 <?php
-session_start();
+require_once("includes/session.php");
 require_once("twitter_oauth_credentials.php");
 
 require("twitteroauth/autoload.php");
