@@ -20,5 +20,7 @@
 
 /*Small displays. For example phones*/
 @media only screen and (max-width:640px){
-    
+    #user_name{
+        text-align:center;
+    }
 }
