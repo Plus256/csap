@@ -247,15 +247,115 @@ main{
 }
 
 #chat_container{
-	padding:10px;/*remove property when dynamic processing begins*/
 	background:#FCFCFC;
 	-webkit-flex-grow:1;
 	-moz-flex-grow:1;
 	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
+	flex-direction:column;
 	-moz-border-radius:0 0 0 10px;
 	-webkit-border-radius:0 0 0 10px;
 	-o-border-radius:0 0 0 10px;
 	border-radius:0 0 0 10px;
+}
+
+#chat_container_header{
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+	background:#F5F5F5;
+	text-align:center;
+}
+
+.tab_switch{
+	-webkit-flex:1;
+	-moz-flex:1;
+	flex:1;
+	text-transform:uppercase;
+	padding:10px;
+	cursor:default;
+}
+
+.tab_switch:hover{
+	/*rule applies to member that has no background property defined.*/
+	/*a direct descendant selector solves it (in case it is a problem)*/
+	background:#F1F1F1;
+}
+
+#chat_tab_switch{
+	border-bottom:1px solid #EAEAEA;
+	border-right:1px solid #EAEAEA;
+}
+
+#online_tab_switch{
+	background:#FCFCFC;
+}
+
+#chat_list{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	height:100%;
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:auto;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#chat_list li{
+	padding:10px;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+}
+
+#chat_list li:hover{
+	background:#F5F5F5;
+}
+
+.chat_list_item_avatar{
+	width:3em;
+	height:3em;
+	margin-right:1em;
+}
+
+.chat_list_item_avatar img{
+	width:auto;
+	height:3em;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	-o-border-radius:100%;
+	border-radius:100%;
+}
+
+.chat_list_item_details{
+	line-height:3em;
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
+	flex-grow:1;
+	border-bottom:1px solid #EAEAEA;
+}
+
+#chat_container_main{
+	-webkit-flex-grow:1;
+	-moz-flex-grow:1;
+	flex-grow:1;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+	position:relative;
+}
+
+.default_chat_data{
+	margin:auto;
+	padding:1em;
+	text-align:center;
 }
 
 #main_pane{
